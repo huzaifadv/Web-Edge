@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '/src/assets/images/logo.png'
 
 export default function Footer() {
     return (
@@ -9,7 +10,7 @@ export default function Footer() {
                         <div className="mb-10 md:mb-0 max-w-md">
                             <a href="/" className="flex items-center mb-4">
                                 <img
-                                    src="/src/assets/images/logo.png"
+                                    src={Logo}
                                     className="sm:h-15 sm:w-30 h-10 w-20"
                                     alt="Web Edge Logo"
                                 />

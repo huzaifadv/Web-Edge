@@ -13,7 +13,7 @@ export function TabsDemo() {
                     className="w-full overflow-hidden relative h-full rounded-2xl sm:pt-[50px] sm:p-10 p-3 pt-[25px] text-xl md:text-4xl font-bold text-white bg-[#531ec7]">
 
                     <img
-                        src="/src/assets/images/portfolio/12.jpg"
+                        src="https://www.aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png"
                         alt="dummy image"
                         width="1000"
                         height="1000"
@@ -29,7 +29,7 @@ export function TabsDemo() {
                    className="w-full overflow-hidden relative h-full rounded-2xl sm:pt-[50px] sm:p-10 p-3 pt-[25px] text-xl md:text-4xl font-bold text-white bg-[#531ec7]">
 
                     <img
-                        src="src/assets/images/portfolio/8.jpg"
+                        src="https://www.aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png"
                         alt="dummy image"
                         width="1000"
                         height="1000"
@@ -45,7 +45,7 @@ export function TabsDemo() {
                     className="w-full overflow-hidden relative h-full rounded-2xl sm:pt-[50px] sm:p-10 p-3 pt-[25px] text-xl md:text-4xl font-bold text-white bg-[#531ec7]">
 
                     <img
-                        src="src/assets/images/portfolio/1.jpg"
+                        src="https://www.aceternity.com/images/products/thumbnails/new/moonbeam.png"
                         alt="dummy image"
                         width="1000"
                         height="1000"
@@ -61,7 +61,7 @@ export function TabsDemo() {
                   className="w-full overflow-hidden relative h-full rounded-2xl sm:pt-[50px] sm:p-10 p-3 pt-[25px] text-xl md:text-4xl font-bold text-white bg-[#531ec7]">
 
                     <img
-                        src="/src/assets/images/mac.jpg"
+                        src="https://www.aceternity.com/images/products/thumbnails/new/aceternityui.png"
                         alt="dummy image"
                         width="1000"
                         height="1000"
@@ -77,7 +77,7 @@ export function TabsDemo() {
                     className="w-full overflow-hidden relative h-full rounded-2xl sm:pt-[50px] sm:p-10 p-3 pt-[25px] text-xl md:text-4xl font-bold text-white bg-[#531ec7]">
 
                     <img
-                        src="src/assets/images/portfolio/7.jpg"
+                        src="https://aceternity.com/images/products/thumbnails/new/algochurn.png"
                         alt="dummy image"
                         width="1000"
                         height="1000"
