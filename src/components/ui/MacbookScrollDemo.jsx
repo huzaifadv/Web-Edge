@@ -4,7 +4,7 @@ import Mac from '/src/assets/images/mac.jpg'
 
 export function MacbookScrollDemo() {
     return (
-        <div className="overflow-hidden container mx-auto px-4 sm:px-[50px] w-full mt-[-350px] sm:mt-[-200px] mb-[-400px] sm:mb-0">
+        <div className="overflow-hidden container mx-auto px-4 sm:px-[50px] w-full mt-[-400px] sm:mt-[-200px] mb-[-450px] sm:mb-0">
 
             <MacbookScroll
                
