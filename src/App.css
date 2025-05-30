@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #030712;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+
+.no-visible-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #531ec7;
+}
+
+.footer{
+    border: #80808042 1px solid;
+    border-radius: 10px;
+}
+
+/* ---------------Hero Swiper----------------- */
+
+.swiper {
+    width: 720px;
+    height: 720px;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    z-index: 50;
+    background: #ffffff29;
+    backdrop-filter: blur(80px);
+}
+
+
+#navbar-default ul li a {
+    border-color: gray;
+}
+
+.web-text {
+    margin-top: -130px;
+    margin-bottom: -230px;
+}
+
+.maincard {
+    border: #58506869 1px solid;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .swiper-slide img {
+        display: block;
+        width: 500px;
+    }
+
+    .swiper {
+        width: 350px;
+        height: 400px;
+        position: absolute;
+        left: 0%;
+        top: 5%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        width: 90%;
+        z-index: 50;
+        background: #ffffff29;
+        backdrop-filter: blur(10px);
+    }
+
+    .hero-text {
+        margin-top: 70px;
+    }
+
+    .web-text {
+        margin-top: -70px;
+        margin-bottom: -180px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .inter-var {
+        margin-bottom: -100px;
+    }
+
+    .bg-grid {
+        margin-bottom: -100px;
+    }
+}
